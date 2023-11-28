@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/landster" rel="stylesheet" />
+
+    <title>Radiactive Cosmetics - Rate/Feedback</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="corporate-info.html">Contacts </a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="mainInfo">
+        <div class="container">
+          <h1>Rate or Add Comments</h1>
+          <p>
+            We value your cosmic thoughts and feedback on the Radiant Radium
+            Collection. Share your experience and help us enhance the celestial
+            beauty journey for all!
+          </p>
+
+          <!-- Feedback Form -->
+          <div class="form">
+            <form action="submit_feedback.php" method="post">
+              <label for="rating">Rate Us:</label>
+              <select id="rating" name="rating">
+                <option value="5">⭐⭐⭐⭐⭐ (5 stars)</option>
+                <option value="4">⭐⭐⭐⭐ (4 stars)</option>
+                <option value="3">⭐⭐⭐ (3 stars)</option>
+                <option value="2">⭐⭐ (2 stars)</option>
+                <option value="1">⭐ (1 star)</option>
+              </select>
+
+              <label for="feedback">Your Feedback:</label>
+              <textarea
+                id="feedback"
+                name="feedback"
+                rows="10"
+                placeholder="Share your thoughts..."
+                style="width: 500px"
+              ></textarea>
+
+              <button class="submit">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        fill="currentColor"
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Send</span>
+              </button>
+            </form>
+          </div>
+          <!-- Sample Reviews -->
+
+          <div>Top reviews of our costumers</div>
+          <div class="review">
+            <p class="rating">⭐⭐⭐⭐⭐ (5 stars)</p>
+            <p class="feedback">
+              "The Glow-n-Tell Moisturizer is pure magic! My skin has never felt
+              so radiant. It's like a cosmic kiss for my face!"
+            </p>
+            <p class="author">- Stella S.</p>
+            <button class="like-button">&heartsuit;</button>
+            <span class="like-count">113 likes</span>
+          </div>
+
+          <div class="review">
+            <p class="rating">⭐⭐⭐⭐ (4 stars)</p>
+            <p class="feedback">
+              "The Atomic Blush Bomb is fantastic! The color is vibrant, and it
+              lasts all day. One small blush, and I'm ready to conquer the
+              universe."
+            </p>
+            <p class="author">- Alex R.</p>
+            <button class="like-button">&heartsuit;</button>
+            <span class="like-count">68 likes</span>
+          </div>
+
+          <div class="review">
+            <p class="rating">⭐⭐⭐⭐⭐ (5 stars)</p>
+            <p class="feedback">
+              "Quantum Quasar Powder is my new beauty staple. It adds a
+              celestial finish to my look, and the packaging is out of this
+              world!"
+            </p>
+            <p class="author">- Luna M.</p>
+            <button class="like-button">&heartsuit;</button>
+            <span class="like-count">71 likes</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">Copyright</footer>
+  </body>
+</html>
