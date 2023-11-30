@@ -32,7 +32,7 @@
 
           <!-- Feedback Form -->
           <div class="form">
-            <form action="submit_feedback.php" method="post">
+            <form id="myForm">
               <label for="rating">Rate Us:</label>
               <select id="rating" name="rating">
                 <option value="5">⭐⭐⭐⭐⭐ (5 stars)</option>
@@ -42,6 +42,7 @@
                 <option value="1">⭐ (1 star)</option>
               </select>
 
+              <!-- Text area for reviews -->
               <label for="feedback">Your Feedback:</label>
               <textarea
                 id="feedback"
@@ -72,47 +73,57 @@
               </button>
             </form>
           </div>
+
+          <div class="modal hidden">
+            <p>Thank you, your opinion is important for us</p>
+            <button class="close">Close</button>
+          </div>
+
           <!-- Sample Reviews -->
 
           <div>Top reviews of our costumers</div>
-          <div class="review">
-            <p class="rating">⭐⭐⭐⭐⭐ (5 stars)</p>
-            <p class="feedback">
-              "The Glow-n-Tell Moisturizer is pure magic! My skin has never felt
-              so radiant. It's like a cosmic kiss for my face!"
-            </p>
-            <p class="author">- Stella S.</p>
-            <button class="like-button">&heartsuit;</button>
-            <span class="like-count">113 likes</span>
-          </div>
+          <div class="reviews">
+            <div class="review">
+              <p class="rating">⭐⭐⭐⭐⭐ (5 stars)</p>
+              <p class="feedback">
+                "The Glow-n-Tell Moisturizer is pure magic! My skin has never
+                felt so radiant. It's like a cosmic kiss for my face!"
+              </p>
+              <p class="author">- Stella S.</p>
+              <button class="like-button">&heartsuit;</button>
+              <span class="like-count">113 likes</span>
+            </div>
 
-          <div class="review">
-            <p class="rating">⭐⭐⭐⭐ (4 stars)</p>
-            <p class="feedback">
-              "The Atomic Blush Bomb is fantastic! The color is vibrant, and it
-              lasts all day. One small blush, and I'm ready to conquer the
-              universe."
-            </p>
-            <p class="author">- Alex R.</p>
-            <button class="like-button">&heartsuit;</button>
-            <span class="like-count">68 likes</span>
-          </div>
+            <div class="review">
+              <p class="rating">⭐⭐⭐⭐ (4 stars)</p>
+              <p class="feedback">
+                "The Atomic Blush Bomb is fantastic! The color is vibrant, and
+                it lasts all day. One small blush, and I'm ready to conquer the
+                universe."
+              </p>
+              <p class="author">- Alex R.</p>
+              <button class="like-button">&heartsuit;</button>
+              <span class="like-count">68 likes</span>
+            </div>
 
-          <div class="review">
-            <p class="rating">⭐⭐⭐⭐⭐ (5 stars)</p>
-            <p class="feedback">
-              "Quantum Quasar Powder is my new beauty staple. It adds a
-              celestial finish to my look, and the packaging is out of this
-              world!"
-            </p>
-            <p class="author">- Luna M.</p>
-            <button class="like-button">&heartsuit;</button>
-            <span class="like-count">71 likes</span>
+            <div class="review">
+              <p class="rating">⭐⭐⭐⭐⭐ (5 stars)</p>
+              <p class="feedback">
+                "Quantum Quasar Powder is my new beauty staple. It adds a
+                celestial finish to my look, and the packaging is out of this
+                world!"
+              </p>
+              <p class="author">- Luna M.</p>
+              <button class="like-button">&heartsuit;</button>
+              <span class="like-count">71 likes</span>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <footer class="footer">Copyright</footer>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
   </body>
 </html>
