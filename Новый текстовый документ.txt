@@ -1,0 +1,5 @@
+This is a simple HTML, CSS and JS webpage created as a project for one of my class in college.
+
+## Introduction
+
+The main task is to create a site to promote a product from the past, if at that time the Internet already existed. My choice fell on radioactive cosmetics and I will tell you a bit of history behind it.  The brand of radioactive cosmetics Tho-Radia appeared at the end of 1932 on the wave of popular in 1920-30-ies fascination with radioactive elements - mainly radium. Back in 1898, this element was discovered by Pierre and Marie Curie, and for a long time no one knew it was harmful. In the 1920s, radium, to which rejuvenating properties were attributed, began to be added to many different products: chocolate, toothpaste, cigarettes and even condoms. The French Tho-Radia became the most famous brand of radioactive cosmetics, offering a wide range of products with thorium and radium added. For example, 100 grams of Tho-Radia cream contained 0.5 grams of thorium chloride and 0.25 milligrams of radium bromide.

@@ -407,3 +407,15 @@ textarea {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+.all_reviews {
+  cursor: pointer;
+}
+.all_reviews:hover {
+  color: #8c8888;
+}
+.all_reviews_container {
+  width: 600px;
+  text-align: center;
+  margin: 30px 0;
+}
